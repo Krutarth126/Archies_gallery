@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Cards from "../component/Card";
+import ContactUS from "../component/ContactUs";
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
-import Slider from "../component/Slider";
-import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const Contact = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Archie's Collection</title>
         <link
@@ -22,12 +20,10 @@ export default function Home() {
         />
       </Head>
       <Navbar />
-      <div className="slider__div">
-        <Slider />
-        <Cards />
+      <div className="slider__div" style={{ minHeight: "80vh" }}>
+        <ContactUS />
       </div>
       <Footer />
-
       <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -43,6 +39,8 @@ export default function Home() {
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"
       ></script>
-    </div>
+    </>
   );
-}
+};
+
+export default Contact;
