@@ -7,6 +7,18 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta name="title" content="Archies-Gallery" />
+        <meta
+          name="description"
+          content="want women-wear dresses, hand-made-snacks & bhagwan-vastra?Get it here at affordable price in bilaspur"
+        />
+        <meta
+          name="keywords"
+          content="Archies-Gallery, Hand-Made-Snacks in bilaspur, Women-Wear in bilaspur"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <meta property="og:title" content="Archies Gallery" />
         <meta
           property="og:description"

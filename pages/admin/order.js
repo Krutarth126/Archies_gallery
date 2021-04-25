@@ -28,7 +28,7 @@ const AmdinOrder = ({ data }) => {
                       <div className="col-12 col-sm-4 cardd ">
                         <h6>{order.title}</h6>
                         <div>
-                          <img src={order.url} height="150vh" />
+                          <img src={order.url} height="150vh" alt="img here" />
                         </div>
                         <p>{order.content}</p>
                         <p id="price">{order.price}</p>

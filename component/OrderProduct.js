@@ -14,7 +14,7 @@ const OrderProduct = ({ url, price, heading, content }) => {
     <div>
       <div className=" order ">
         <div className="order__img">
-          <img src={url} height="120vh" />
+          <img src={url} alt="image here" height="120vh" />
         </div>
         <div className="order__content">
           <h4>{heading}</h4>

@@ -9,7 +9,7 @@ const Slider = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 1 }}
       >
-        Welcome To Archie's Collection
+        Welcome To <b>Archies Gallery</b>
       </motion.h1>
 
       <div

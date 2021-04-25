@@ -45,7 +45,7 @@ const View = ({ data }) => {
             <>
               <div className=" order ">
                 <div className="order__img">
-                  <img src={data.url} height="120vh" />
+                  <img src={data.url} height="120vh" alt="image here" />
                 </div>
                 <div className="order__content">
                   <h4>{data.heading}</h4>

@@ -4,16 +4,16 @@ import Link from "next/link";
 const Cards = () => {
   return (
     <>
-      <motion.h1
+      <motion.h2
         style={{ color: "blue", fontFamily: "cursive" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 1 }}
       >
         What You Get Here
-      </motion.h1>
-      <div className="row " style={{ width: "85%", margin: "auto" }}>
-        <div className="card col-12 col-sm-3 " style={{ width: "18rem" }}>
+      </motion.h2>
+      <div className="row " style={{ width: "100%", margin: "auto" }}>
+        <div className="card col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/StB7fZB/Whats-App-Image-2021-04-17-at-22-34-34-Copy.jpg"
@@ -33,7 +33,7 @@ const Cards = () => {
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-3" style={{ width: "18rem" }}>
+        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/TrWHh65/Whats-App-Image-2021-04-17-at-22-35-13.jpg"
@@ -47,13 +47,13 @@ const Cards = () => {
               and many more....
             </p>
             <Link href="/product">
-              <a href="#" className="btn btn-primary">
+              <a href="#" className="btn btn-primary m-1">
                 Order Now
               </a>
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-3" style={{ width: "18rem" }}>
+        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/qCtvNhk/Whats-App-Image-2021-04-17-at-22-35-36.jpg"
@@ -72,7 +72,7 @@ const Cards = () => {
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-3" style={{ width: "18rem" }}>
+        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
           <img
             className="card-img-top"
             src="https://akm-img-a-in.tosshub.com/aajtak/images/story/201612/pujansamgri_146320921580_1024x1024_051416123130_1482493489_749x421.jpeg?size=1200:675"
