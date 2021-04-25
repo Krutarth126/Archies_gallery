@@ -16,13 +16,6 @@ const Slider = () => {
         id="carouselExampleControls"
         className="carousel slide yoyo "
         data-ride="carousel"
-        style={{
-          backgroundColor: "blue",
-          marginTop: "50px",
-          width: "40%",
-          margin: "50px auto",
-          height: "60vh",
-        }}
       >
         <div className="carousel-inner">
           <div className="carousel-item ">

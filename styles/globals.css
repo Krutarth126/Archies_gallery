@@ -35,6 +35,13 @@ a {
   background-color: red;
   text-shadow: 0px 2px 4px black;
 }
+.yoyo {
+  background-color: blue;
+  margin-top: 50px;
+  width: 40%;
+  margin: 50px auto;
+  height: 60vh;
+}
 
 .yoyo img {
   width: 100%;
@@ -172,6 +179,9 @@ a {
     margin-top: 50px;
   }
   .contact {
+    width: 80%;
+  }
+  .yoyo {
     width: 80%;
   }
 }
