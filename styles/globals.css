@@ -167,9 +167,12 @@ a {
     width: 80%;
   }
   iframe {
-    width: 220px;
+    width: 230px;
     height: 150px;
     margin-top: 50px;
+  }
+  .contact {
+    width: 80%;
   }
 }
 .emptybaket__msg {
