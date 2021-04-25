@@ -21,6 +21,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="language" content="English" />
         <meta property="og:title" content="Archies Gallery" />
         <meta
+          name="google-site-verification"
+          content="kHmxmRZWnZXaDTow6wcKwRprVh52MQDs2rudCjkA750"
+        />
+        <meta
           property="og:description"
           content="Get the best Product at affordable price"
         />
