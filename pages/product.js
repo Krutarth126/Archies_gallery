@@ -5,7 +5,7 @@ import SingleCard from "../component/SingleCard";
 import axios from "axios";
 import Link from "next/link";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   let res = await axios.get("https://archies-order.herokuapp.com/clothes");
   let snackRes = await axios.get("https://archies-order.herokuapp.com/snacks");
   let poshak = await axios.get("https://archies-order.herokuapp.com/vastra");

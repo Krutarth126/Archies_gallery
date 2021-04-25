@@ -25,7 +25,7 @@ const Input = () => {
     await axios.post("https://archies-order.herokuapp.com/post", state);
     e.preventDefault();
 
-    router.push("/services");
+    router.push("/product");
   };
   console.log(state);
   return (
