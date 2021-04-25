@@ -51,6 +51,7 @@ a {
   margin: auto;
   background-color: #eca3f5;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .card img {
