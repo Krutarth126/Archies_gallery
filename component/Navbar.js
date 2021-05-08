@@ -7,8 +7,9 @@ const Navbar = () => {
         <Link href="/">
           <a className="navbar-brand" href="#">
             <img
-              src="https://st2.depositphotos.com/4398873/7993/v/600/depositphotos_79933844-stock-illustration-a-and-c-letters-logo.jpg"
+              src="https://i.ibb.co/56vkdWC/archies.png"
               width="50px"
+              height="40px"
             />
           </a>
         </Link>

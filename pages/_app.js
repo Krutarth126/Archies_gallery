@@ -2,6 +2,7 @@ import { StateProvider } from "../component/StateProvider";
 import reducer, { initialState } from "../component/Reducers";
 import "../styles/globals.css";
 import Head from "next/head";
+import "react-notifications/lib/notifications.css";
 
 function MyApp({ Component, pageProps }) {
   return (

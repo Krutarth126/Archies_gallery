@@ -28,7 +28,17 @@ a {
 }
 
 .navbar-dark {
-  background-color: black !important;
+  background: #000000 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   color: white;
@@ -56,9 +66,28 @@ a {
 .slider__div {
   width: 100%;
   margin: auto;
-  background-color: #eca3f5;
+  background: #83a4d4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b6fbff,
+    #83a4d4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b6fbff,
+    #83a4d4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.card {
+  height: 70vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
 }
 
 .card img {
@@ -184,6 +213,10 @@ a {
   .yoyo {
     width: 80%;
   }
+  .mbl-view {
+    width: 80%;
+    margin: auto;
+  }
 }
 .emptybaket__msg {
   width: 80%;
@@ -238,4 +271,10 @@ a {
 
 li {
   cursor: pointer;
+}
+
+.notification-success,
+.notification,
+.notification-enter-done {
+  box-shadow: none !important;
 }

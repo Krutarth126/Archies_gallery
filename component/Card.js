@@ -12,8 +12,8 @@ const Cards = () => {
       >
         What You Get Here
       </motion.h2>
-      <div className="row " style={{ width: "100%", margin: "auto" }}>
-        <div className="card col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
+      <div className="row mbl-view">
+        <div className="card col-12 col-sm-3 mx-auto" style={{ width: "80%" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/StB7fZB/Whats-App-Image-2021-04-17-at-22-34-34-Copy.jpg"
@@ -33,7 +33,7 @@ const Cards = () => {
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
+        <div className="card col-12 col-sm-3 mx-auto" style={{ width: "80%" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/TrWHh65/Whats-App-Image-2021-04-17-at-22-35-13.jpg"
@@ -53,7 +53,7 @@ const Cards = () => {
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
+        <div className="card col-12 col-sm-3 mx-auto" style={{ width: "80%" }}>
           <img
             className="card-img-top"
             src="https://i.ibb.co/qCtvNhk/Whats-App-Image-2021-04-17-at-22-35-36.jpg"
@@ -72,7 +72,7 @@ const Cards = () => {
             </Link>
           </div>
         </div>
-        <div className="card  col-12 col-sm-2 m-3" style={{ width: "18rem" }}>
+        <div className="card col-12 col-sm-3 mx-auto" style={{ width: "80%" }}>
           <img
             className="card-img-top"
             src="https://akm-img-a-in.tosshub.com/aajtak/images/story/201612/pujansamgri_146320921580_1024x1024_051416123130_1482493489_749x421.jpeg?size=1200:675"
